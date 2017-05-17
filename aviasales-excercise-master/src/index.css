@@ -1,0 +1,154 @@
+body {
+    background-color: #eaeaea;
+    margin: 0px;
+    padding: 0px;
+}
+
+.body {
+    margin: 0 50px;
+}
+
+.logo {
+    width: 100px;
+    margin: auto;
+}
+
+.filter {
+    display: block;
+
+}
+
+.filter__checkbox {
+    width: 19px;
+    height: 19px;
+
+    vertical-align: middle;
+}
+
+.filter__text {
+    display: block;
+    
+    font-size: 1.2rem;
+    color: #4a4a4a
+}
+
+.ticket {
+    position: relative;
+    background: #fff;
+    box-shadow: 0 0 3px 0 hsla(0, 0%, 62%, .5);
+    border-radius: 5px;
+
+    
+    background-color: white;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+.ticket__buy-btn {
+    width: 100%;
+    height: 48px;
+    box-shadow: 0 1px 0 0 #d64d08, 0 2px 1px 0 rgba(0, 0, 0, .1);
+    background: #ff6d00;
+    font-size: 12px;
+    font-style: bold;
+}
+
+.ticket__buy-btn-text {
+    color: white;
+    font-size: 16px;
+}
+
+.ticket__buy-btn:hover {
+    background-color: #ff8b0f;
+}
+
+.ticket__buy-col {
+    display: table-cell;
+    background: #fff;
+    width: 200px;
+    padding: 25px 20px 10px;
+    border-right: 1px solid #e4e7e8;
+    vertical-align: top;
+    border-radius: 5px 0 0 5px;
+    position: relative;
+}
+
+.ticket__content {
+    display: table-cell;
+    background: #fff;
+    width: 510px;
+    padding-top: 15px;
+    position: relative;
+    vertical-align: top;
+    border-radius: 0 5px 5px 0;
+}
+
+.ticket__header {
+    margin-bottom: 5px
+}
+
+.filters {
+    position: relative;
+
+
+    background: #fff;
+    box-shadow: 0 0 3px 0 hsla(0, 0%, 62%, .5);
+    border-radius: 5px;
+
+    background-color: white;
+    margin: 15px;
+
+    border-radius: 5px;
+}
+
+.fly-segment__time {
+    font-size: 3.5rem;
+    line-height: 2.5rem;
+    padding-bottom: 1px;
+}
+
+.fly-segment__city {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.fly-segment__city,
+.fly-segment__date,
+.fly-segment__path {
+    font-size: 1.5rem;
+    color: #8b9497;
+    line-height: 1.5;
+}
+
+.fly-segment__origin {
+    margin-left: 15px;
+    text-align: left;
+    float: left;
+}
+
+.fly-segment__destination {
+    text-align: right;
+    float: right;
+    margin-right: 15px;
+}
+
+.fly-segment__path {
+    text-align: center;
+    position: absolute;
+    left: 115px;
+    right: 115px;
+    top: 25px;
+    height: 100px;
+    padding-top: 10px;
+}
+
+.ticket__content-wrapper {
+    margin-top: 25px;
+}
+
+.filters__header {
+    color: #4a4a4a;
+}
